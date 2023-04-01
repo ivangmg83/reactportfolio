@@ -7,13 +7,13 @@ import users from './users';
 import React, { useState } from 'react';
 
 function App() {
-  const [aboutMe, setAboutMe] = useState(false);
+  const [contentType, setContentType] = useState('');
 
   return (
     <div className="App">
-      <Nav setAboutMe = {setAboutMe}/>
+      <Nav setContentType={setContentType}/>
       <main className="App-header">
-        <Main aboutMe={aboutMe}/>
+        <Main users={users} contentType={contentType}/>
       </main>
       <Footer />
     </div>
