@@ -39,7 +39,12 @@ export default function (props) {
         props.contentType === 'resume' && (
           <div >
             <h1>RESUME</h1>
-            
+            <a
+            href="https://github.com/ivangmg83/reactportfolio/blob/main/docs/ivan_generated_resume.pdf"
+            class="link"
+            >
+            Download Resume
+            </a>
             <ul>Front End
               <li>HMTL</li>
               <li>CSS</li>
