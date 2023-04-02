@@ -3,8 +3,8 @@ import './App.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Main from './components/Main';
-import users from './users';
 import React, { useState } from 'react';
+import Form from './utils/form/Form'
 
 function App() {
   const [contentType, setContentType] = useState('');
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Nav setContentType={setContentType}/>
       <main className="App-header">
-        <Main users={users} contentType={contentType}/>
+        <Main Form={Form} contentType={contentType}/>
       </main>
       <Footer />
     </div>
