@@ -4,12 +4,6 @@ export default function (props) {
   return (
     <div>
       {
-      props.contentType === '' && (
-      <p>Rendering main component</p>
-      )
-      }
-     
-      {
         props.contentType === 'aboutMe' && (
           <div>
             <h1>ABOUT ME</h1>

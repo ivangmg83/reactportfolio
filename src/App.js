@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import Form from './utils/form/Form'
 
 function App() {
-  const [contentType, setContentType] = useState('');
+  const [contentType, setContentType] = useState('aboutMe');
 
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
       <main className="App-header">
         <Main Form={Form} contentType={contentType}/>
       </main>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
