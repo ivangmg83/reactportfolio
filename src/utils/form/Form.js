@@ -31,15 +31,13 @@ function Form() {
     if (value !== "" && message === "message") {
       setFieldRequiredError("")
     }
-    // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    // return name === 'name' ? setName(value) : setEmail(value) : setMessage (avalue);
-    if (name === "name" || eMail === "" || message === "") {
+    if (name === "name") {
       return setName(value);
     }
-    if (name === "" || eMail === "email" || message === "") {
+    if (name === "email") {
       return setEmail(value);
     }
-    if (name === "" || eMail === "" || message === "message") {
+    if (name === "message") {
       return setMessage(value);
     }
   };
