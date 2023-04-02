@@ -68,9 +68,9 @@ function Form() {
 
   return (
     <div>
-      <p>
-        Contact
-      </p>
+      <h1>
+        CONTACT
+      </h1>
       <form className="form">
         <p>Name</p>
         <input
