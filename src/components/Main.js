@@ -18,7 +18,7 @@ export default function (props) {
           <h1>PROJECT PORTFOLIO</h1>
           <a href= "https://github.com/JoshuaEliTate/ChatDown">Project1</a><br/>
           <a href= "https://github.com/JoshuaEliTate/ChatDown">Project2</a><br/>
-          <a href= "https://github.com/JoshuaEliTate/ChatDown">Project3</a><br/>
+          <a href= "https://github.com/chulleyboy/Tourney">Project3</a><br/>
           </div>
         )
       }
